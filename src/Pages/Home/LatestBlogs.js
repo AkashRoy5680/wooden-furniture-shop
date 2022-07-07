@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Blog from "./Blog";
 
 const LatestBlogs = () => {
@@ -22,7 +22,7 @@ const LatestBlogs = () => {
         <h1 className="text-4xl text-center pb-10 font-ubuntu font-bold text-gray-800">
           Latest Blogs Post
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center">
           {blogs.map((blog) => (
             <Blog key={blog.id} blog={blog} />
           ))}

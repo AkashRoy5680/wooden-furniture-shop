@@ -4,7 +4,7 @@ const NewsLetter = () => {
   return (
     <div className=" bg-gray-200 py-10">
       <h1 className="text-center pb-5 font-ubuntu font-semibold text-gray-700 text-4xl">
-        Subscribe News Latter
+        Subscribe News Letter
       </h1>
       <dir className=" bg-gray-100 py-12 px-10 container rounded-xl shadow-sm">
         <div className="flex justify-between items-center">
@@ -22,7 +22,7 @@ const NewsLetter = () => {
               className="input w-60 bg-gray-300 placeholder:text-lg"
               placeholder="Enter your Email"
             />
-            <button className="btn bg-gray-800">Subscribe Us</button>
+            <button className="btn bg-gray-800 text-white p-2">Subscribe Us</button>
           </div>
         </div>
       </dir>

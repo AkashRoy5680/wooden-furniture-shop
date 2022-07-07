@@ -15,7 +15,7 @@ const FeaturedProduct = () => {
         <h1 className="text-4xl text-center pb-10 font-ubuntu font-bold text-gray-800">
           Featured Products
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center">
           {chairs.map((chair) => (
             <Product key={chair.id} chair={chair} />
           ))}
